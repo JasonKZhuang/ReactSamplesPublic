@@ -1,0 +1,133 @@
+:root {
+  --header-height: 60px;
+  --header-color: white;
+  --header-bg-color: black;
+  --header-font-size: 15px;
+  --header-element-height: 35px;
+}
+
+#section-header {
+  /* arrangement */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  width: 100%;
+  height: var(--header-height);
+  max-height: 100px;
+  padding: 10px 24px;
+
+  /* color factors  */
+  background-color: var(--header-bg-color);
+  color: var(--header-color);
+
+  /* font factors */
+  font-size: var(--header-font-size);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section div {
+  height: 100%;
+  display: flex;
+  margin: 0 0 0 5px;
+  align-items: center; /* 垂直居中 */
+}
+
+#section-header-logo {
+  /* background-color: red; */
+  flex: 20%;
+  justify-content: center; /* 水平居中 */
+}
+
+#section-header-navbar {
+  /* background-color: rgb(196, 199, 208); */
+  flex: 60%;
+  justify-content: center;
+}
+
+#section-header-action {
+  /* background-color: rgb(145, 213, 103); */
+  flex: 20%;
+  justify-content: flex-end; /* 水平靠右 */
+}
+
+#section-header-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#section-header-navbar li {
+  display: inline-block;
+  height: 100%;
+  z-index: 1;
+  vertical-align: middle;
+  padding-left: 8px;
+}
+
+#section-header-navbar a {
+  text-decoration: none;
+  color: #fff;
+  float: left;
+  text-align: center;
+  padding: 8px;
+  font-size: var(--header-font-size);
+}
+
+#section-header-navbar a:hover {
+  background-color: rgb(175, 102, 102);
+}
+
+#section-header-navbar #threeBarIcon {
+  display: none;
+}
+
+#section-header-action input {
+  width: 10vw;
+  min-width: 100px;
+  height: var(--header-element-height);
+  border: none;
+  border-radius: 4px;
+  font-size: var(--header-font-size);
+  padding-left: 8px;
+  color: black;
+}
+
+#section-sidebar{
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: var(--header-height);
+  width: 100px;
+  height: 200px;
+  background: rgb(156, 16, 16);
+}
+
+
+@media screen and (max-width: 850px) {
+  #section-header-navbar a,
+  #section-header-action input,{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #section-header-navbar {
+    justify-content: start;
+  }
+  
+  #section-header-navbar #threeBarIcon {
+    display: flex;
+  }
+
+  #section-header-navbar ul {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 719px) {
+  #section-sidebar{
+    display: none;
+  }
+}

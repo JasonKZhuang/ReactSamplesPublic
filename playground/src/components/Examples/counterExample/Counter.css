@@ -1,0 +1,14 @@
+.count {
+  font-size: 25px;
+  padding: 5px 10px;
+  display: block;
+}
+
+.reset {
+  margin: 10px 10px;
+  font-size: 16px;
+  background-color: red;
+  padding: 15px 30px;
+  color: white;
+  height: 50px;
+}

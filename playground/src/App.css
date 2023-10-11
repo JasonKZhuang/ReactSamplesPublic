@@ -1,0 +1,39 @@
+.App {
+  /* 1% of the viewport's width. */
+  width: 100vw;
+  /* 1% of the viewport's height. */
+  height: 100vh;
+}
+
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin: 2px 2px;
+  padding: 12px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background 1s;
+
+  color: white;
+  background-color: rgb(121, 172, 230);
+  cursor: pointer;
+
+  width: 220px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.my-facebook-button-class {
+  width: 200px;
+}
+
+.myDiv {
+  width: 100%;
+  text-align: center;
+}

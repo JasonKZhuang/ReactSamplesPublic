@@ -1,0 +1,22 @@
+.light{
+  padding: 20px;
+  color: black;
+  background-color: white;
+}
+
+.dark{
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+.panel-light{
+  color: white;
+  background-color: black;
+}
+
+.panel-dark{
+  color: black;
+  background-color: white;
+}
+

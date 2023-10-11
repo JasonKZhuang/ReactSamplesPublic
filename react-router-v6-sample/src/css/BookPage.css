@@ -1,0 +1,16 @@
+.book-card {
+  /* frame style first */
+  width: 75%;
+  height: 300px;
+  margin: 5px auto 20px auto;
+  border: 1px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(63, 5, 5);
+
+  /* inside content second */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}

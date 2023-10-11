@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe {
+  display: none;
+}
+
+button {
+  background-color: rgb(9, 239, 63);
+  color: red;
+  border: 1px solid;
+  font-size: 14pt;
+  padding: 5px 10px;
+  border-radius: 10px;
+}

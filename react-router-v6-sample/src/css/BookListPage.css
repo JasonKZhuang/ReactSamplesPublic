@@ -1,0 +1,8 @@
+.book-list-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(2, 27, 61);
+}

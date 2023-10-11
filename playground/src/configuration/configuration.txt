@@ -1,0 +1,63 @@
+1.The extensions installed in VSCode
+
+2.The npm packages installed in the project
+    
+    node.js
+    We have to have node.js installed on the system, 
+    go to the node.js website and download the package and install it.
+    to test the node.js using the following command:
+    #node -v
+    #npm -v
+
+    React Develper Tools
+    Install the React Develper Tools in the chrome extension.
+    It allows you to see all the components and props and state of your react application.
+
+    BabelJS
+    https://babeljs.io/repl
+    Babel is a JavaScript compiler
+    Install BabelJS locally.
+    Babel compile the js file to a another js file which can be run for the Javascript including DOM elements
+    #npm install -g babel-cli@6.24.1
+    #babel --version
+    #npm init
+    #npm add babel-preset-react@6.24.1 babel-preset-env@1.5.2
+
+
+
+3.Create react application
+    using npx to create react application locally
+    #npx create-react-app my-app
+    #cd my-app
+    #npm start
+
+    using npm to create react application globally
+    #npm initall -g create-react-app 	/* = install globally */
+    #npm create-react-app my-app 		/* create a new project */
+    #cd my-app
+    #npm start 				/* setup development server */
+    #npm build 				/* build the app for production in build folder */
+
+
+4. the shortcut
+    met→	methodName = (params) => { }
+    fre→	arrayName.forEach(element => { }
+    fin→	for(let itemName in objectName { }
+    nfn→	const functionName = (params) => { }
+
+    imr→	import React from 'react'
+    imrd→	import ReactDOM from 'react-dom'
+    imrc→	import React, { Component } from 'react'
+    impt→	import PropTypes from 'prop-types'
+    imrse→	import React, { useState, useEffect } from 'react'
+    rconst→	constructor(props) with this.state
+
+    rcc react create class component
+    rce react create and export default class component
+    rcep react create and export default class component with PropTypes
+
+    rfce react function component and export default
+    rfcp react create function component with PropTypes
+
+    rafce react arrow function component and export default
+    rafcp react arrow function component and export default with PropTypes

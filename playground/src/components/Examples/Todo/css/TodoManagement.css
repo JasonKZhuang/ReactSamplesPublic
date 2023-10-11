@@ -1,0 +1,46 @@
+.todoDiv,
+h2 {
+  text-align: center;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: #ffffff;
+}
+
+#todoTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#todoTable td,
+#todoTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#todoTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#todoTable tr:hover {
+  background-color: #ddd;
+}
+
+#todoTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+}
+
+.todoDiv {
+  text-align: center;
+}
